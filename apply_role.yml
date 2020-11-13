@@ -1,6 +1,6 @@
 ---
 - name: applying roles
-  hosts: webapp
+  hosts: dev-servers
   become: true
   roles: 
     - tomcat
